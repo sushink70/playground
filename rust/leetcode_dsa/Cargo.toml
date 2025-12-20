@@ -1,0 +1,15 @@
+[package]
+name = "leetcode_solutions"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+
+# Optional: Enable optimizations in dev mode (faster test runs)
+[profile.dev]
+opt-level = 1
+
+[profile.test]
+opt-level = 1
