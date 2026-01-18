@@ -1,0 +1,14 @@
+{
+  "cells": [
+    {
+      "kind": 2,
+      "language": "go",
+      "value": "import \"fmt\"\n\nfmt.Println(\"Hello from GoNB!\")"
+    },
+    {
+      "kind": 2,
+      "language": "go",
+      "value": "func add(a, b int) int {\n    return a + b\n}\n\nresult := add(5, 3)\nfmt.Printf(\"5 + 3 = %d\\n\", result)"
+    }
+  ]
+}
